@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: 'Nata Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+#menubar {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+#menubar:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    font-size: 26px;
+}
+
+h1 {
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
+}
+
+#categories {
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+}
+
+#categories #category_biography {
+    background-color: rgba(255, 69, 69, 0.8);
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#categories #category_non_fiction {
+    background-color: rgba(255, 230, 69, 0.8);
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+}
