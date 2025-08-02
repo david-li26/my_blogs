@@ -100,7 +100,7 @@ h1 {
 }
 
 @media screen {
-    @media (max-width: 460px) {
+    @media (max-width: 660px) {
         #menubar {
             font-size: 16px;
             height: 40px;
