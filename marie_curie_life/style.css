@@ -71,3 +71,81 @@ h1 {
     text-align: center;
     font-size: 14px;
 }
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#content p {
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#image_and_quote {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+#image_and_quote p {
+    font-style: italic;
+    color: #555;
+    margin-left: 20px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+@media screen {
+    @media (max-width: 460px) {
+        #menubar {
+            font-size: 16px;
+            height: 40px;
+            padding-left: 8px;
+        }
+
+        #menubar:hover {
+            font-size: 16px;
+            height: 40px;
+            padding-left: 8px;
+        }
+
+        #categories {
+            flex-direction: column;
+            padding: 0 8px;
+        }
+
+        #categories #category_biography,
+        #categories #category_non_fiction {
+            width: 100%;
+            margin: 4px 0;
+            font-size: 12px;
+            height: 24px;
+        }
+
+        h1 {
+            font-size: 20px;
+            padding: 6px 8px;
+        }
+
+        #content p {
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        #image_and_quote {
+            flex-direction: column;
+            margin: 8px;
+                align-items: center;
+        }
+
+        #image_and_quote p {
+            font-size: 16px;
+            margin-left: 0;
+            margin-top: 8px;
+        }
+    }
+}
